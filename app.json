@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Expo Router Typescript",
-    "slug": "expo-router-typescript",
+    "name": "WARP MoQT",
+    "slug": "warp-moqt",
     "scheme": "app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -10,11 +10,10 @@
       "image": "./src/assets/images/splash.png",
       "backgroundColor": "#222"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": false
+      "supportsTablet": false,
+      "bundleIdentifier": "com.csl.warp-moqt"
     },
     "android": {
       "adaptiveIcon": {
@@ -27,13 +26,13 @@
       "favicon": "./src/assets/images/app-icon.png",
       "bundler": "metro"
     },
-    "plugins": [
-      "expo-router",
-      "expo-font"
-    ],
+    "plugins": ["expo-router", "expo-font"],
     "extra": {
       "router": {
         "origin": false
+      },
+      "eas": {
+        "projectId": "f8bc5442-37c3-4dd4-a52c-18c059f73489"
       }
     }
   }
