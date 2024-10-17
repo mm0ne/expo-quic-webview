@@ -12,7 +12,7 @@ export default function HomeScreen() {
       <View style={{ flex: 1 }}>
         {/* WebView is rendered but initially hidden behind the LoadingScreen */}
         <WebView 
-          source={{ uri: 'https://moq.rorre.me:1234/?url=https://moq.rorre.me:4443' }} 
+          source={{ uri: 'https:moq.rorre.me?url=https://moq.rorre.me:4443' }} 
           onLoadEnd={() => setIsWebViewLoaded(true)} // Mark as loaded once WebView finishes loading
           style={styles.webView}
         />
